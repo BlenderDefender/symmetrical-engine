@@ -1,0 +1,12 @@
+name: Bug Report
+description: "Report an issue"
+body:
+  - type: checkboxes
+    id: os
+    attributes:
+      label: Test
+      description: You may select more than one
+      options:
+        - label: MacOS
+        - label: Windows
+        - label: Linux
