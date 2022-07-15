@@ -9,6 +9,7 @@ body:
     attributes:
       label: Describe the bug
       description: A clear and concise description of what the bug is.
+      render: Markdown
     validations:
       required: true
   - type: textarea
@@ -20,6 +21,7 @@ body:
         2. Click on '....'
         3. Scroll down to '....'
         4. See error
+      render: Markdown
 
     validations:
       required: true
@@ -28,6 +30,7 @@ body:
     attributes:
       label: Expected behavior
       description: A clear and concise description of what you expected to happen.
+      render: Markdown
     validations:
       required: true
 
@@ -49,6 +52,7 @@ body:
         - OS: 
         - Blender Version: 
         - Addon Version: 
+      render: Markdown
     validations:
       required: true
 
