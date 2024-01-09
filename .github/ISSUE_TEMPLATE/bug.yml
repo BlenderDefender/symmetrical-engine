@@ -62,9 +62,9 @@ body:
   - type: input
     id: addon_version
     attributes:
-      label: System Information
-      description: Please complete the following information.
-      placeholder: "Example: Version: 1.2.1"
+      label: Addon Version
+      description: Which version of this addon are you experiencing issues with?
+      placeholder: "Example: Version 1.2.1"
     validations:
       required: true
 
