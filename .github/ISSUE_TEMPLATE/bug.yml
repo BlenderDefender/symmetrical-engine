@@ -5,6 +5,9 @@ labels: ['bug']
 assignees: 'BlenderDefender'
 
 body:
+  - type: markdown
+    attributes:
+      value: "## Bug Description"
   - type: textarea
     attributes:
       label: Describe the bug
@@ -60,7 +63,7 @@ body:
         - Blender 3.5
         - Blender 3.4
         - Blender 3.3 LTS
-        - Blender 3.2 or lower (please specify in "Additional Context")
+        - Blender 3.2 or lower (please specify under "Additional Information")
       default: 0
     validations:
       required: true
@@ -73,6 +76,9 @@ body:
     validations:
       required: true
 
+  - type: markdown
+    attributes:
+      value: "## Additional Information"
   - type: textarea
     id: additional_context
     attributes:
