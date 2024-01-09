@@ -1,6 +1,6 @@
 ---
 name: Bug Report (Classic)
-about: Create a report to help us improve
+about: Use the old GitHub experience to create a bug report to help improving our addons.
 title: "Bug: <title>"
 labels: "bug"
 assignees: "BlenderDefender"
